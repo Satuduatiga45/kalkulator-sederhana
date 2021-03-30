@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+button {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  word-spacing: 100px;
+  width: 75px;
+  height: 75px;
+}
+
+input[type="text"]{
+  width: 305px;
+  height: 100px;
+  font-size: 25px;
+  text-align: right;
+}
+
+.container {
+  background-color: lightblue;
+  display: inline-block;
+  margin-top: 60px;
+  
+}
+
+table { 
+  border: 0;
+  padding: 10px;
+  margin: 0;
+}
