@@ -89,12 +89,10 @@ clear.addEventListener('click', function () {
   input.value = '';
 });
 
-//belum selesai
 del.addEventListener('click', function () {
   input.value = input.value.substring(0, input.value.length - 1);
 });
 
-// belum selesai
 samaDengan.addEventListener('click', function () {
   let hasilReplace;
   if (input.value.includes('×') && input.value.includes('÷')) {
@@ -127,6 +125,3 @@ kurungBuka.addEventListener('click', function () {
 kurungTutup.addEventListener('click', function () {
   input.value = input.value + ')';
 });
-
-
-
